@@ -1,0 +1,40 @@
+.editor-box {
+	margin: 0 auto;
+	box-shadow: 1px 1px 10px 2px #3a5f5f;
+	margin-top: 2rem;
+    width: 35rem;
+}
+.editor-box textarea {
+	min-height: 15rem;
+	width: 35rem;
+	resize: vertical;
+	background-color: #c0d8d8;
+	outline: none;
+    font-size: 1rem;
+}
+
+.editor-box .title-bar {
+	display: flex;
+	position: relative;
+	background-color: #4aa3a3;
+	font-weight: bold;
+	padding: 0 0.5rem;
+	align-items: center;
+}
+.editor-box .title-bar span {
+	margin-left: 0.5rem;
+}
+
+.editor-box .title-bar .tool {
+	margin-left: auto;
+}
+
+.editor-box .title-bar .fa-expand-arrows-alt:hover,
+.fa-compress:hover {
+	color: #3a5f5f;
+	cursor: pointer;
+}
+
+.active textarea{
+	min-height: 50rem;
+}
